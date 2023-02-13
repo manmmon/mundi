@@ -25,7 +25,7 @@ import com.oval.util.WebUtil;
  */
 public class Code22474Action extends AbstractAction {
 
-	public static final String ROOTPATH = "D:\\SFTPDATAAuto\\auto\\22474";
+	public static final String ROOTPATH = Constant.DIR_AUTO + "22474";
 
 	public Code22474Action() {
 		file_lastfix = Constant.FILE_LASTFIX_MD;
@@ -271,7 +271,7 @@ public class Code22474Action extends AbstractAction {
 		try {
 			HSSFSheet sheet = xss.getSheetAt(0);
 			if (sheet.getPhysicalNumberOfRows() > 1) {
-				// 出库时间 生产厂家 客户代码 客户名称 产品代码 产品名称 产品规格 剂型 单位 批号 
+				// 出库时间 生产厂家 客户代码 客户名称 产品代码 产品名称 产品规格 剂型 单位 批号
 				//数量 含税单价 含税金额 出货类型 客户城市 客户地址 经销商发货单号 备注
 				for (int i = 1; i < sheet.getPhysicalNumberOfRows(); i++) {
 					HSSFRow xr = sheet.getRow(i);
