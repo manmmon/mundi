@@ -1,0 +1,52 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<FileDir>
+		<standardFileDir>WebFile</standardFileDir>
+		<testFileDir>WebTestFile</testFileDir>
+	</FileDir>
+	<customers>
+		<customer verify="Y" grade="1" test="Y">
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22436VerifyAction
+			</classname>
+			<orgcode>22436</orgcode>
+			<orgname>佛山市医药有限公司</orgname>
+			<ismerge>true</ismerge>
+			<login>
+				<pram name="username">7gy</pram>
+				<pram name="password">llgry202207</pram>
+			</login>
+		</customer>
+
+		<customer verify="Y" grade="1" test="Y">
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22388VerifyAction
+			</classname>
+			<orgcode>22388</orgcode>
+			<orgname>江苏三江医药有限公司</orgname>
+			<ismerge>true</ismerge>
+			<login>
+				<pram name="userNameTextBox">bjmd</pram>
+				<pram name="userPassTextBox">111111</pram>
+			</login>
+		</customer>
+		<customer verify="Y" grade="1" test="Y">
+			<classname>com.oval.grabweb.logic.part202302.impl.Code28672VerifyAction</classname>
+			<orgcode>28672</orgcode>
+			<orgname>国药控股重庆有限公司</orgname>
+			<ismerge>true</ismerge>
+			<login>
+				<pram name="Account">134386</pram>
+				<pram name="Password">e4b42a8a5889cde47f4df68b04e1fdf7</pram>
+			</login>
+		</customer>
+		<customer verify="Y" grade="1" test="Y">
+			<classname>com.oval.grabweb.logic.part202302.impl.Code55744VerifyAction</classname>
+			<orgcode>55744</orgcode>
+			<orgname>国药控股酉阳县医药有限公司</orgname>
+			<ismerge>true</ismerge>
+			<login>
+				<pram name="Account">134774</pram>
+				<pram name="Password">e4b42a8a5889cde47f4df68b04e1fdf7</pram>
+			</login>
+		</customer>
+	</customers>
+</root>

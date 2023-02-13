@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+	<customers>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22106Action
+			</classname>
+			<orgcode>22106</orgcode>
+			<orgname>山东海王银河医药有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">2123</pram>
+				<pram name="callId">5003</pram>
+				<pram name="uuid">DD89944F-D974-4120-A4B0-E2C294D1D2D6</pram>
+			</login>
+		</customer>
+
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22364Action
+			</classname>
+			<orgcode>22364</orgcode>
+			<orgname>国药集团山西有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">4101</pram>
+				<pram name="callId">5043</pram>
+				<pram name="uuid">1343FACE-9D07-40A2-8E9A-DA55938A566C</pram>
+			</login>
+		</customer>
+
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22366Action
+			</classname>
+			<orgcode>22366</orgcode>
+			<orgname>国药集团临汾有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">4217</pram>
+				<pram name="callId">5044</pram>
+				<pram name="uuid">5F40516E-5F25-4984-AEEE-751BF32FBB42</pram>
+			</login>
+		</customer>
+
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22197Action
+			</classname>
+			<orgcode>22197</orgcode>
+			<orgname>西藏自治区医药有限责任公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">10786</pram>
+				<pram name="callId">5046</pram>
+				<pram name="uuid">C07D3177-5DE2-4A09-8402-3AB856E2D5B9</pram>
+			</login>
+		</customer>
+
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22153Action
+			</classname>
+			<orgcode>22153</orgcode>
+			<orgname>重庆医药集团药特分有限责任公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">5403</pram>
+				<pram name="callId">5050</pram>
+				<pram name="uuid">07DF621E-1313-484C-8BC3-C74488D72806</pram>
+			</login>
+		</customer>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code36735Action
+			</classname>
+			<orgcode>36735</orgcode>
+			<orgname>重庆医药新特药品有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">5403</pram>
+				<pram name="callId">5050</pram>
+				<pram name="uuid">07DF621E-1313-484C-8BC3-C74488D72806</pram>
+			</login>
+		</customer>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code31011Action
+			</classname>
+			<orgcode>31011</orgcode>
+			<orgname>重庆医药合川医药有限责任公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">5403</pram>
+				<pram name="callId">5050</pram>
+				<pram name="uuid">07DF621E-1313-484C-8BC3-C74488D72806</pram>
+			</login>
+		</customer>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22154Action
+			</classname>
+			<orgcode>22154</orgcode>
+			<orgname>重庆医药集团永川医药有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">5403</pram>
+				<pram name="callId">5050</pram>
+				<pram name="uuid">07DF621E-1313-484C-8BC3-C74488D72806</pram>
+			</login>
+		</customer>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code34448Action
+			</classname>
+			<orgcode>34448</orgcode>
+			<orgname>重庆医药长寿医药有限责任公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">5403</pram>
+				<pram name="callId">5050</pram>
+				<pram name="uuid">07DF621E-1313-484C-8BC3-C74488D72806</pram>
+			</login>
+		</customer>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22156Action
+			</classname>
+			<orgcode>22156</orgcode>
+			<orgname>重庆医药潼南医药有限责任公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">5403</pram>
+				<pram name="callId">5050</pram>
+				<pram name="uuid">07DF621E-1313-484C-8BC3-C74488D72806</pram>
+			</login>
+		</customer>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code54406Action
+			</classname>
+			<orgcode>54406</orgcode>
+			<orgname>重庆医药（集团）股份有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">5403</pram>
+				<pram name="callId">5050</pram>
+				<pram name="uuid">07DF621E-1313-484C-8BC3-C74488D72806</pram>
+			</login>
+		</customer>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code52337Action
+			</classname>
+			<orgcode>52337</orgcode>
+			<orgname>重药控股(四川)有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">5403</pram>
+				<pram name="callId">5050</pram>
+				<pram name="uuid">07DF621E-1313-484C-8BC3-C74488D72806</pram>
+			</login>
+		</customer>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22172Action
+			</classname>
+			<orgcode>22172</orgcode>
+			<orgname>宁夏众欣联合方泽医药有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">2174</pram>
+				<pram name="callId">5052</pram>
+				<pram name="uuid">C5381AC1-BB49-4934-BA62-24297844BA33</pram>
+			</login>
+		</customer>
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22399Action</classname>
+			<orgcode>22399</orgcode>
+			<orgname>徐州润百隆医药有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">10840</pram>
+				<pram name="callId">5104</pram>
+				<pram name="uuid">0D8842A9-311C-4CA8-A3AD-4E7EAB314A69</pram>
+			</login>
+		</customer>
+
+		<customer>
+			<classname>com.oval.grabweb.logic.part202301.impl.Code22120Action</classname>
+			<orgcode>22120</orgcode>
+			<orgname>山东康诺盛世医药有限公司</orgname>
+			<dailyExpr>0 5 4-7 * * ?</dailyExpr>
+			<ismerge>false</ismerge>
+			<login>
+				<pram name="distId">2416</pram>
+				<pram name="callId">5051</pram>
+				<pram name="uuid">7AD013F8-B402-4160-A272-38A3E7FD7483</pram>
+			</login>
+		</customer>
+	</customers>
+</root>

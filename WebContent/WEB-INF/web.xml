@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app id="WebApp_ID" version="2.4" xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
+	<display-name>XJPWeb</display-name>
+	<context-param>
+	     <param-name>FileDir</param-name>
+ 	     <param-value>E:\SFTPDATAAuto</param-value>
+	</context-param>
+	<!-- <context-param>
+	     <param-name>DestDir</param-name>
+ 	     <param-value>E:\SFTPDATAAuto\bak</param-value>
+	</context-param> -->
+	 <context-param>
+	     <param-name>DestDir</param-name>
+ 	     <param-value>E:\SFTPDATA\Shaphar\web</param-value>
+	</context-param>
+	<!--<context-param>
+	     <param-name>DestTestDir</param-name>
+ 	     <param-value>F:/FileBak</param-value>
+	</context-param> -->	
+	<!-- <context-param>
+	     <param-name>dailyExpr</param-name>
+ 	     <param-value>0 19 1,2,3,4,5,6,7 ? * *</param-value>
+	</context-param> -->
+	<context-param>
+	     <param-name>copyExpr</param-name>
+ 	     <param-value>0 30 8-17 ? * *</param-value>
+	</context-param>	
+	<listener>
+		<listener-class>com.oval.grabweb.listener.StartupListener</listener-class>
+	</listener>
+	<!-- <listener>
+		<listener-class>com.oval.grabweb.listener.StartupListener2</listener-class>
+	</listener> -->
+	<servlet>
+		<description>
+		</description>
+		<display-name>ConsoleServlet</display-name>
+		<servlet-name>ConsoleServlet</servlet-name>
+		<servlet-class>servlet.ConsoleServlet</servlet-class>
+		<load-on-startup>2</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ConsoleServlet</servlet-name>
+		<url-pattern>/ConsoleServlet</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<description>
+		</description>
+		<display-name>ConsoleServlet2</display-name>
+		<servlet-name>ConsoleServlet2</servlet-name>
+		<servlet-class>servlet.ConsoleServlet2</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ConsoleServlet2</servlet-name>
+		<url-pattern>/ConsoleServlet2</url-pattern>
+	</servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>/JSP/Main.jsp</welcome-file>
+	</welcome-file-list>
+	
+</web-app>

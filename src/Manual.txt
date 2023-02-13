@@ -1,0 +1,2 @@
+1.需要验证码登陆需要配 350Web.xml文件
+2.多账号需要在timedTask中配置ismerge为true,单账号为false

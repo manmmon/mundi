@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* CSS Document */
+div,body {
+	margin: 0px auto;
+}
+
+table.table_line {
+	border-top: 1px #ddd solid;
+	border-right: 1px #ddd solid;
+}
+
+table.table_line td {
+	border-bottom: 1px #ddd solid;
+	border-left: 1px #ddd solid;
+}
+
+.td_title {
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	font-size: 14px;
+	font-weight: bold;
+	background: url(../images/tit_bg.jpg) repeat-x;
+}
+
+.td_con {
+	text-align: center;
+	font-size: 12px;
+}
+
+.name_1 {
+	height: 30px;
+	line-height: 30px;
+	font-size: 12px;
+	color: #000;
+	float: left;
+}
+
+.input_box {
+	height: 23px;
+	padding-top: 2px;
+	float: left;
+}
+
+.btn {
+	float: right;
+	height: 23px;
+	padding-top: 2px;
+	width: 100px;
+}
+
+.p-l_10 {
+	padding-left: 10px;
+}
+
+.p-t_10 {
+	padding-top: 10px;
+}
